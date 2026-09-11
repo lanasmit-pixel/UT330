@@ -1,0 +1,336 @@
+
+
+
+/* ------------------------------------------------------------
+   1. FONTS
+   ------------------------------------------------------------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+
+/* ------------------------------------------------------------
+   2. COLORS + VARIABLES
+   ------------------------------------------------------------ */
+
+:root, ::backdrop {
+
+  /* --- type --- */
+  --sans-font: 'Quicksand', system-ui, sans-serif;
+  --heading-font: 'Quicksand', system-ui, sans-serif;
+  --mono-font: ui-monospace, Menlo, Consolas, monospace;
+
+  /* --- colors --- */
+  --bg: #fff7fb;
+  --accent-bg: #ffffff;
+  --text: #4a3540;
+  --text-light: #9b7d8b;
+  --border: #f3c6d8;
+
+  --accent: #e88bad;
+  --accent-hover: #d96f96;
+  --accent-text: #ffffff;
+
+  --code: #c85b82;
+  --marked: #ffe1ec;
+
+  --standard-border-radius: 12px;
+}
+
+
+/* ------------------------------------------------------------
+   3. GENERAL WEBSITE STYLE
+   ------------------------------------------------------------ */
+
+body {
+  font-family: 'Quicksand', system-ui, sans-serif;
+  background: #fff7fb;
+  color: #4a3540;
+}
+
+
+/* ------------------------------------------------------------
+   4. HEADINGS
+   ------------------------------------------------------------ */
+
+h1, h2, h3, h4 {
+  font-family: 'Quicksand', system-ui, sans-serif;
+  font-weight: 700;
+  color: #d96f96;
+  letter-spacing: 0;
+}
+
+h1 {
+  font-size: 2.6rem;
+  line-height: 1.1;
+}
+
+
+/* ------------------------------------------------------------
+   5. HEADER
+   ------------------------------------------------------------ */
+
+header {
+  text-align: left;
+  padding-bottom: 1.5rem;
+  background: #ffffff;
+  border-bottom: 3px solid #f7cddd;
+}
+
+
+/* Heart next to the main title */
+
+header h1::after {
+  content: " ♡";
+  color: #e88bad;
+}
+
+
+/* ------------------------------------------------------------
+   6. NAVIGATION
+   ------------------------------------------------------------ */
+
+header > nav {
+  margin-top: 0.5rem;
+}
+
+nav a {
+  color: #d96f96;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #b94f78;
+  text-decoration: underline;
+}
+
+
+/* ------------------------------------------------------------
+   7. LINKS
+   ------------------------------------------------------------ */
+
+a {
+  color: #d96f96;
+}
+
+a:hover {
+  color: #b94f78;
+}
+
+
+/* ------------------------------------------------------------
+   8. MAIN CONTENT
+   ------------------------------------------------------------ */
+
+main {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 16px;
+  border: 2px solid #f7d4e1;
+}
+
+
+/* ------------------------------------------------------------
+   9. HEART DECORATION
+   ------------------------------------------------------------ */
+
+main::before {
+  content: "♡  ♡  ♡";
+  display: block;
+  text-align: center;
+  color: #f0a5bd;
+  font-size: 1.2rem;
+  letter-spacing: 8px;
+  margin-bottom: 1.5rem;
+}
+
+
+/* ------------------------------------------------------------
+   10. ABOUT ME SECTION
+   ------------------------------------------------------------ */
+
+.about-me {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+
+/* Your photo */
+
+.about-photo {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  border: 8px solid #f4a6c1;
+  flex-shrink: 0;
+}
+
+
+/* Your About Me text */
+
+.about-text {
+  flex: 1;
+}
+
+
+/* ------------------------------------------------------------
+   11. HOW THIS SITE IS BUILT
+   ------------------------------------------------------------ */
+
+.about-details h2 {
+  font-size: 0.85rem;
+}
+
+.about-details p {
+  font-size: 0.45rem;
+}
+
+
+/* ------------------------------------------------------------
+   12. PARAGRAPHS
+   ------------------------------------------------------------ */
+
+p {
+  line-height: 1.7;
+}
+
+
+/* ------------------------------------------------------------
+   13. BLOCKQUOTES
+   ------------------------------------------------------------ */
+
+blockquote {
+  background: #fff0f6;
+  border-left: 5px solid #f4a6c1;
+  border-radius: 10px;
+}
+
+
+/* ------------------------------------------------------------
+   14. TABLES
+   ------------------------------------------------------------ */
+
+th {
+  background: #ffe5ef;
+}
+
+
+/* ------------------------------------------------------------
+   15. CODE
+   ------------------------------------------------------------ */
+
+code {
+  color: #c85b82;
+  background: #fff0f6;
+}
+
+
+/* ------------------------------------------------------------
+   16. MARK / HIGHLIGHT
+   ------------------------------------------------------------ */
+
+mark {
+  background: #ffe1ec;
+  color: #4a3540;
+}
+
+
+/* ------------------------------------------------------------
+   17. IMAGES
+   ------------------------------------------------------------ */
+
+img {
+  border-radius: 10px;
+}
+
+
+/* Keep your About Me photo square */
+
+.about-photo {
+  border-radius: 0;
+}
+
+
+/* ------------------------------------------------------------
+   18. FOOTER
+   ------------------------------------------------------------ */
+
+footer {
+  border-top: 2px solid #f7cddd;
+  color: #9b7d8b;
+  text-align: center;
+}
+
+footer p::after {
+  content: " ♡";
+  color: #e88bad;
+}
+
+
+/* ------------------------------------------------------------
+   19. DATES + CAPTIONS
+   ------------------------------------------------------------ */
+
+time {
+  color: #9b7d8b;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  color: #9b7d8b;
+}
+
+
+/* ------------------------------------------------------------
+   20. BUTTONS
+   ------------------------------------------------------------ */
+
+button,
+.button {
+  background: #e88bad;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+}
+
+button:hover,
+.button:hover {
+  background: #d96f96;
+}
+
+
+/* ------------------------------------------------------------
+   21. SELECTION
+   ------------------------------------------------------------ */
+
+::selection {
+  background: #f8c9da;
+  color: #4a3540;
+}
+
+
+/* ------------------------------------------------------------
+   22. MOBILE
+   ------------------------------------------------------------ */
+
+@media (max-width: 700px) {
+
+  .about-me {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-photo {
+    width: 180px;
+    height: 225px;
+  }
+
+  main {
+    padding: 1.2rem;
+  }
+
+}
