@@ -1,0 +1,109 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Movie Ticket Prototype — Lana Smith</title>
+  <meta name="description" content="My UT330 Figma prototype for an online movie ticket purchasing experience.">
+
+  <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+  <link rel="stylesheet" href="../css/custom.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Designing an Online Movie Ticket Purchasing Experience</h1>
+  <p>October 9, 2026 · UT330 Interaction Design and Urban Experiences</p>
+
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="index.html">Log</a>
+    <a href="../project.html">Project</a>
+    <a href="../about.html">About</a>
+  </nav>
+</header>
+
+<main>
+
+  <h2>Overview</h2>
+
+  <p>
+    For this project, I created a low-fidelity prototype in Figma for an
+    online movie ticket purchasing experience. The goal was to design a
+    simple process that allows a user to choose a movie, select seats,
+    complete checkout, and receive confirmation of their purchase.
+  </p>
+
+  <h2>My Design</h2>
+
+  <p>
+    I created four screens to represent one complete user journey.
+    Each screen focuses on a different step in the ticket purchasing process.
+  </p>
+
+  <ul>
+    <li>
+      <strong>01. Showtimes:</strong>
+      The user chooses a movie and selects a showtime.
+    </li>
+    <li>
+      <strong>02. Seat Selection:</strong>
+      The user chooses available seats using a seat map.
+    </li>
+    <li>
+      <strong>03. Checkout:</strong>
+      The user reviews the order and enters payment information.
+    </li>
+    <li>
+      <strong>04. Confirmation:</strong>
+      The user receives confirmation after completing the purchase.
+    </li>
+  </ul>
+
+  <h2>Explore the Prototype</h2>
+
+  <p>
+    You can view my four-screen prototype and explore the design in Figma.
+  </p>
+
+  <p>
+    <a href="https://www.figma.com/design/40WQtS9shzlrhT39yewl9b/online-movie-ticket-purchasing?node-id=0-1&t=YTV0hlRtSJgNbyat-0"
+       target="_blank"
+       rel="noopener noreferrer">
+      View My Movie Ticket Prototype in Figma
+    </a>
+  </p>
+
+  <h2>What I Learned</h2>
+
+  <p>
+    This project helped me think about how users move through a digital
+    experience and how each screen connects to the next. I learned that
+    the design needs to provide clear information at every step so users
+    understand what to do and can complete their task without confusion.
+  </p>
+
+  <p>
+    I also practiced organizing frames in Figma, creating reusable
+    components, using Auto Layout, and connecting screens to represent
+    a complete user flow. Working through the process helped me understand
+    how interaction design involves both the appearance of a screen and
+    the experience of moving through it.
+  </p>
+
+  <p>
+    <a href="index.html">← Back to the Log</a>
+  </p>
+
+</main>
+
+<footer>
+  <p>Lana Smith. UT330, Taubman College, Fall 2026.</p>
+</footer>
+
+</body>
+</html>
+```
